@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WalkStory 계정 삭제</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #e74c3c;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .warning {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .info {
+            background-color: #d1ecf1;
+            border-left: 4px solid #17a2b8;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .step {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        .step-number {
+            font-weight: bold;
+            color: #3498db;
+            font-size: 1.2em;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        .btn-delete {
+            background-color: #e74c3c;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+        }
+        .btn-delete:hover {
+            background-color: #c0392b;
+        }
+        .btn-delete:disabled {
+            background-color: #95a5a6;
+            cursor: not-allowed;
+        }
+        .checkbox-container {
+            margin: 20px 0;
+        }
+        .checkbox-container input[type="checkbox"] {
+            margin-right: 10px;
+            transform: scale(1.2);
+        }
+        .contact-info {
+            background-color: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WalkStory 계정 삭제</h1>
+        
+        <div class="warning">
+            <strong>⚠️ 주의사항</strong><br>
+            계정을 삭제하면 모든 데이터가 영구적으로 삭제되며 복구할 수 없습니다. 신중하게 결정해 주세요.
+        </div>
+
+        <h2>계정 삭제 시 삭제되는 데이터</h2>
+        <p>다음 데이터가 영구적으로 삭제됩니다:</p>
+        <ul>
+            <li><strong>계정 정보</strong>: 닉네임, 이메일 주소, 로그인 정보</li>
+            <li><strong>산책 기록</strong>: 모든 산책 거리, 경로, XP, 레벨</li>
+            <li><strong>게임 데이터</strong>: 수집한 동물, 장비, 인벤토리, 골드</li>
+            <li><strong>소셜 데이터</strong>: 친구 목록, 채팅 메시지, 파티 정보</li>
+            <li><strong>설정 정보</strong>: 앱 내 모든 설정 및 선호도</li>
+        </ul>
+
+        <h2>보관되는 데이터</h2>
+        <div class="info">
+            <p>다음 데이터는 법적 요구사항에 따라 일정 기간 보관될 수 있습니다:</p>
+            <ul>
+                <li><strong>서비스 이용 기록</strong>: 법적 분쟁 해결을 위해 최대 1년간 보관</li>
+                <li><strong>결제 기록</strong>: 세법 준수를 위해 5년간 보관 (현재 결제 기능 없음)</li>
+            </ul>
+            <p>보관 기간이 지나면 자동으로 삭제됩니다.</p>
+        </div>
+
+        <h2>계정 삭제 방법</h2>
+        
+        <div class="step">
+            <span class="step-number">1단계:</span> WalkStory 앱 실행
+        </div>
+        
+        <div class="step">
+            <span class="step-number">2단계:</span> 설정 메뉴로 이동
+            <ul>
+                <li>앱 하단의 프로필 아이콘 또는 헤더의 닉네임 클릭</li>
+                <li>설정 메뉴 선택</li>
+            </ul>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">3단계:</span> 계정 삭제 요청
+            <ul>
+                <li>설정 메뉴에서 "계정 삭제" 또는 "회원 탈퇴" 옵션 선택</li>
+                <li>삭제 사유 선택 (선택사항)</li>
+                <li>비밀번호 확인 또는 소셜 로그인 재인증</li>
+            </ul>
+        </div>
+        
+        <div class="step">
+            <span class="step-number">4단계:</span> 확인 및 처리
+            <ul>
+                <li>계정 삭제 확인 메시지 확인</li>
+                <li>삭제 요청 제출</li>
+                <li>처리 완료까지 최대 7일 소요 (즉시 처리되는 경우도 있음)</li>
+            </ul>
+        </div>
+
+        <h2>부분 데이터 삭제</h2>
+        <p>계정을 삭제하지 않고 특정 데이터만 삭제하고 싶으신가요?</p>
+        <ul>
+            <li><strong>채팅 기록 삭제</strong>: 설정 → 채팅 → 채팅 기록 삭제</li>
+            <li><strong>친구 목록 삭제</strong>: 설정 → 친구 → 친구 삭제</li>
+            <li><strong>산책 기록 삭제</strong>: 설정 → 데이터 관리 → 산책 기록 삭제</li>
+        </ul>
+        <p>앱 내 설정 메뉴에서 개별적으로 삭제할 수 있습니다.</p>
+
+        <h2>계정 삭제 후</h2>
+        <div class="info">
+            <p>계정 삭제가 완료되면:</p>
+            <ul>
+                <li>모든 데이터가 영구적으로 삭제됩니다</li>
+                <li>같은 이메일/닉네임으로 재가입할 수 있습니다 (새 계정으로 시작)</li>
+                <li>삭제된 데이터는 복구할 수 없습니다</li>
+            </ul>
+        </div>
+
+        <h2>문의하기</h2>
+        <div class="contact-info">
+            <p>계정 삭제와 관련하여 질문이 있으시거나 도움이 필요하시면 아래로 연락해 주세요:</p>
+            <ul>
+                <li><strong>이메일</strong>: [여기에 이메일 주소 입력]</li>
+                <li><strong>앱 내 문의</strong>: 설정 → 고객지원 → 문의하기</li>
+            </ul>
+            <p>계정 삭제 요청도 이메일을 통해 직접 요청하실 수 있습니다.</p>
+        </div>
+
+        <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+
+        <p style="text-align: center; color: #7f8c8d; font-size: 0.9em;">
+            본 페이지는 Google Play 정책에 따라 계정 삭제 방법을 안내합니다.<br>
+            WalkStory 개발팀
+        </p>
+    </div>
+</body>
+</html>
